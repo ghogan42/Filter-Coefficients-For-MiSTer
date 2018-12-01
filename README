@@ -1,22 +1,12 @@
------Introduction
+INTRODUCTION
 
 In November 2018, a feature was added to MiSTer to allow the the video scaler to load filter coefficients for arbitary interpolation filters.  This allows MiSTer to scale it's output over HDMI with common image scaling algorithms such as Bicubic as well as other scaling algorithms better suited for enlarging pixel graphics.  Additionally, some special effects such as scanlines and lcd effects can implemented through filter coeffcients.
 
-What do some filters look like?
-
-Many filters exist already.  Here are samples of just a few:
-
-Even Sharper Bilinear:
-
-Sharp 30% Scanlines:
-
-LCD Effect:
-
------How to use filter coeffcients
+HOW TO USE FILTERS WITH MISTER
 
 To use any of the pre-made filter coefficients (or your own) you need
 
-* An updated version of MiSTer (link).  The first release with support was MiSTer_20181116.
+* An updated version of MiSTer.  The first release with support was MiSTer_20181116.
 * A supported core.  Most cores released after November 16, 2018 have support for filter coefficients.  This includes SNES, NES, Genesis, Sega Master System/Game Gear, PC Engine/Turbo Grafx 16, and Coleco.   More cores with support will be available in the future.
 * At least one set of coefficients in a text file.  Each set of filter coefficients goes in a file with a ".txt" extension.  All of your filters need to be in a /Filters subdirectory of your MiSTer sd card root.
 
@@ -26,7 +16,7 @@ Once you have updated MiSTer and Cores and your filter coefficients in the right
 * Go to page 2 of the core's OSD menu and under HDMI Scaler: change the option from "Filter - Internal" to "Filter - Custom"
 * The option below "Filter - Custom" should now be enabled and will allow you to choose your filter from the files in your /Filters folder.
 
------ Frequently Asked Questions
+FREQUENTLY ASKED QUESTIONS
 
 Q: Why would I want to use custom filter coefficients?
 A: There are many reasons. To get better/different quality than the internal scaler is the main reason. To use scanline or lcd effects is another.
