@@ -1,6 +1,6 @@
-## THIS IS NOW ON THE OFFICIAL MISTER GITHUB
+## THE FILTER COEFFICIENT PACKS HAVE BEEN MOVED TO THE OFFICIAL MISTER GITHUB
 
-The official place to get these filter coefficients is the official MiSTer GitHub repository now.  So just head over to https://github.com/MiSTer-devel/Filters_MiSTer for the updated Filter Packs.
+The official MiSTer GitHub repository is now hosting these Filter Coefficient Packs.  So just head over to https://github.com/MiSTer-devel/Filters_MiSTer for any updated releases.
 
 
 ### INTRODUCTION
