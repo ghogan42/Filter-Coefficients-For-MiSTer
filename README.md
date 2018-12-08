@@ -1,3 +1,8 @@
+## THIS IS NOW ON THE OFFICIAL MISTER GITHUB
+
+The official place to get these filter coefficients is the official MiSTer GitHub repository now.  So just head over to https://github.com/MiSTer-devel/Filters_MiSTer for the updated Filter Packs.
+
+
 ### INTRODUCTION
 
 In November 2018, a feature was added to MiSTer to allow the the video scaler to load filter coefficients for arbitary interpolation filters.  This allows MiSTer to scale it's output over HDMI with common image scaling algorithms such as Bicubic as well as other scaling algorithms better suited for enlarging pixel graphics.  Additionally, some special effects such as scanlines and lcd effects can implemented through filter coeffcients.
